@@ -1465,9 +1465,24 @@ Back To Top Section
   color: #ffffff;
 }
 
+
+.btn-primary2 {
+  background-color: #8bc34a;
+  color: #ffffff;
+}
+
+.btn-primary2:hover {
+  background-color: #669136;
+  color: #ffffff;
+}
+
+
+
+
 .btn-secondary {
   background-color: #212635;
 }
+
 
 .btn-secondary:hover {
   background-color: #191d28;
@@ -1634,6 +1649,23 @@ Back To Top Section
 
 .box-icon-1 .icon a:hover {
   color: #2E8ECE;
+  /* keep color on hover (or change if you want) */
+}
+.box-icon-1 .icon2 a {
+  color: #8bc34a;
+  font-size: 30px;
+  margin-left: 10px;
+  /* same as your icon color */
+  text-decoration: none;
+}
+.box-icon-1 .icon2 a svg {
+  position: relative;
+  top: 5px;
+}
+
+
+.box-icon-1 .icon2 a:hover {
+  color: #8bc34a;
   /* keep color on hover (or change if you want) */
 }
 
@@ -5775,3 +5807,20 @@ dl.hiw dd .team-2 .title,
 /* .navbar-main{
   height: 70px;
 } */
+
+.team-row {
+  display: flex;
+  flex-wrap: wrap;
+   row-gap: 20px;
+}
+
+.team-row > [class*="col-"] {
+  display: flex;
+}
+
+.team-row .team-box {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  width: 100%;
+}
