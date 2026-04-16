@@ -2697,6 +2697,11 @@ Back To Top Section
   .testimonial-3 .media {
     float: none;
   }
+ .topbar-logo img {
+    position: relative;
+    top: -16px;
+    left: 5px;
+  }
 
   .testimonial-3 .media img {
     margin: 0 auto;
@@ -5661,12 +5666,7 @@ dl.hiw dd .team-2 .title,
     margin-bottom: 20px;
   }
 
-  .topbar-logo img {
-    position: relative;
-    top: -15px;
-    left: 5px;
-  }
-
+ 
   .bos-quote .bos-photo {
     clear: left;
     display: block;
